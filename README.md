@@ -19,8 +19,8 @@ Your challenge is to build out this card component and get it looking as close t
 
 ## Links
 
-- Solution URL: --
-- Live Site URL: --
+- Solution URL: https://www.frontendmentor.io/solutions/four-card-section-challenge-responsive-html-and-css-MiQOz8Kvg-
+- Live Site URL: https://raink31.github.io/09-Four-Card-Section/
 
 
 ## Built with
