@@ -21,6 +21,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: hsl(0, 0%, 98%);
 }
 
 .main{
@@ -38,7 +39,7 @@ body{
 
 .title{
     font-size: 1.55em;
-    font-weight: 400;
+    font-weight: 200;
     color: hsl(234, 12%, 34%);
     margin-bottom: 1rem;
 }
@@ -54,6 +55,7 @@ body{
 }
 
 .card{
+    background-color: white;
     padding-bottom: 8rem;
     margin-bottom: 1.5rem;
     border-radius: 10px;
@@ -67,7 +69,9 @@ body{
     padding-right: 2rem;
 }
 
-.card strong{
+.card h2{
+    padding-left: 2rem;
+    padding-right: 2rem;
     font-weight: 600;
     font-size: 1.2em;
     color: hsl(234, 12%, 34%);
