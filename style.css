@@ -1,0 +1,161 @@
+/* RESETS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+/* CSS */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    min-width: 330px;
+    margin: 0.5rem;
+}
+
+.wrapper{
+    padding: 2rem 2rem 0rem 2rem;
+}
+
+.title, .subtitle{
+    text-align: center;
+}
+
+.title{
+    font-size: 1.55em;
+    font-weight: 400;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 1rem;
+}
+
+.title span{
+    font-weight: 600;
+}
+
+.subtitle{
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    margin-bottom: 4rem;
+}
+
+.card{
+    padding-bottom: 8rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px hsla(235, 36%, 50%, 0.15);
+    position: relative;
+    overflow: hidden;
+}
+
+.card p{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.card strong{
+    font-weight: 600;
+    font-size: 1.2em;
+    color: hsl(234, 12%, 34%);
+}
+
+.card span{
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    font-size: 0.8em;
+}
+
+.card-title{
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card img{
+    width: 60px;
+    position: absolute;
+    bottom: 30px;
+    right: 25px;
+}
+
+.supervisor-line{
+    height: 4px;
+    background-color: hsl(180, 62%, 55%);
+}
+
+.teambuilder-line {
+    height: 4px;
+    background-color: hsl(0, 78%, 62%);
+}
+
+.karma-line {
+    height: 4px;
+    background-color: hsl(34, 97%, 64%);
+}
+
+.calculator-line {
+    height: 4px;
+    background-color: hsl(212, 86%, 64%);
+}
+
+footer{
+    font-size: 0.7em;
+    margin-bottom: 2rem;
+}
+
+footer a{
+    color: hsl(212, 86%, 64%);
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1150px) {
+    .main {
+            min-width: 1150px;
+        }
+
+    .title, .subtitle {
+            width: 440px;
+            margin: auto;
+        }
+
+    .subtitle{
+        font-size: 0.85em;
+        margin-bottom: 3rem;
+    }
+
+    .title{
+        font-size: 2em;
+        margin-bottom: 1rem;
+    }
+
+    .card{
+        width: 320px;
+        margin: auto;
+    }
+
+    .cards-box{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .double-card .card{
+        margin-bottom: 2rem;
+    }
+
+    footer{
+        font-size: 0.8em;
+    }
+}
